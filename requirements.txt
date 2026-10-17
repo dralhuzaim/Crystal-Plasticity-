@@ -1,0 +1,9 @@
+# CPFE-Lattice reference implementation (tested with Python 3.12)
+numpy>=1.26
+scipy>=1.11
+pandas>=2.0
+matplotlib>=3.8
+# optional, for running the tests with pytest instead of `python tests/test_equations.py`
+# pytest>=8
+# optional, to post-process real DAMASK results into the .npz format of fip.fields_from_npz
+# damask>=3.0
